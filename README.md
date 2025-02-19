@@ -24,8 +24,8 @@ Welcome to the LangChain Crash Course repository! This repo contains all the cod
 
    ```bash
    <!-- TODO: UPDATE TO MY  -->
-   git clone https://github.com/bhancockio/langchain-crash-course
-   cd langchain-crash-course
+   git clone https://github.com/myselfsaurabh/langchain
+   cd langchain
    ```
 
 2. Install dependencies using Poetry:
@@ -111,42 +111,3 @@ Explore the technologies like documents, embeddings, and vector stores that enab
   - `1_tool_constructor.py`
   - `2_tool_decorator.py`
   - `3_tool_base_tool.py`
-
-Learn about agents, how they work, and how to build custom tools to enhance their capabilities.
-
-## How to Use This Repository
-
-1. **Watch the Video:** Start by watching the LangChain Master Class for Beginners video on YouTube at 2X speed for a high-level overview.
-
-2. **Run the Code Examples:** Follow along with the code examples provided in this repository. Each section in the video corresponds to a folder in this repo.
-
-3. **Join the Community:** If you get stuck or want to connect with other AI developers, join the FREE Skool community [here](https://www.skool.com/ai-developer-accelerator/about).
-
-## Comprehensive Documentation
-
-Each script in this repository contains detailed comments explaining the purpose and functionality of the code. This will help you understand the flow and logic behind each example.
-
-## FAQ
-
-**Q: What is LangChain?**  
-A: LangChain is a framework designed to simplify the process of building applications that utilize language models.
-
-**Q: How do I set up my environment?**  
-A: Follow the instructions in the "Getting Started" section above. Ensure you have Python 3.10 or 3.11 installed, install Poetry, clone the repository, install dependencies, rename the `.env.example` file to `.env`, and activate the Poetry shell.
-
-**Q: I am getting an error when running the examples. What should I do?**  
-A: Ensure all dependencies are installed correctly and your environment variables are set up properly. If the issue persists, seek help in the Skool community or open an issue on GitHub.
-
-**Q: Can I contribute to this repository?**  
-A: Yes! Contributions are welcome. Please open an issue or submit a pull request with your changes.
-
-**Q: Where can I find more information about LangChain?**  
-A: Check out the official LangChain documentation and join the Skool community for additional resources and support.
-
-## Support
-
-If you encounter any issues or have questions, feel free to open an issue on GitHub or ask for help in the Skool community.
-
-## License
-
-This project is licensed under the MIT License.
