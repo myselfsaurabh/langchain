@@ -1,6 +1,6 @@
-# LangChain Crash Course
+# Langchain, Prompt, RAG and AGENTS 
 
-Welcome to the LangChain Crash Course repository! This repo contains all the code examples you'll need to follow along with the LangChain Master Class for Beginners video. By the end of this course, you'll know how to use LangChain to create your own AI agents, build RAG chatbots, and automate tasks with AI.
+Welcome to the LangChain, Prompt Engineering, RAG, and AI Agents repository! This repository contains all the code examples needed to follow along with the LangChain Master Class for Beginners video series. By the end of this course, you'll be proficient in using LangChain to create AI agents, build RAG-based chatbots, and automate tasks with AI.
 
 ## Course Outline
 
@@ -22,37 +22,32 @@ Welcome to the LangChain Crash Course repository! This repo contains all the cod
 
 1. Clone the repository:
 
-   ```bash
-   <!-- TODO: UPDATE TO MY  -->
    git clone https://github.com/myselfsaurabh/langchain
    cd langchain
-   ```
 
 2. Install dependencies using Poetry:
 
-   ```bash
    poetry install --no-root
-   ```
 
 3. Set up your environment variables:
 
    - Rename the `.env.example` file to `.env` and update the variables inside with your own values. Example:
 
-   ```bash
    mv .env.example .env
-   ```
+
 
 4. Activate the Poetry shell to run the examples:
 
-   ```bash
+ 
    poetry shell
-   ```
+
 
 5. Run the code examples:
 
-   ```bash
+  
     python 1_chat_models/1_chat_model_basic.py
-   ```
+ 
+
 
 ## Repository Structure
 
@@ -111,3 +106,11 @@ Explore the technologies like documents, embeddings, and vector stores that enab
   - `1_tool_constructor.py`
   - `2_tool_decorator.py`
   - `3_tool_base_tool.py`
+
+Contributing
+
+Feel free to contribute by submitting issues, feature requests, or pull requests to improve the repository. Let's collaborate and make AI automation more accessible!
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
