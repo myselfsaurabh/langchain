@@ -17,7 +17,7 @@ persistent_directory = os.path.join(db_dir, "chroma_db_firecrawl")
 
 def create_vector_store():
     """Crawl the website, split the content, create embeddings, and persist the vector store."""
-    # Define the Firecrawl API key
+    # Define the Firecrawl API key.
     api_key = os.getenv("FIRECRAWL_API_KEY")
     if not api_key:
         raise ValueError("FIRECRAWL_API_KEY environment variable not set")
