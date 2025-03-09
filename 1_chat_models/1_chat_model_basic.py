@@ -8,6 +8,7 @@ from langchain_openai import ChatOpenAI
 load_dotenv()
 
 # Create a ChatOpenAI model
+# check model ranking https://lmarena.ai/
 model = ChatOpenAI(model="gpt-4o")
 
 # Invoke the model with a message
