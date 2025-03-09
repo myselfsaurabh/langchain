@@ -24,6 +24,7 @@ print(f"Answer from AI: {result.content}")
 
 # AIMessage:
 #   Message from an AI.
+# Example for one-shot learning set up:
 messages = [
     SystemMessage(content="Solve the following math problems"),
     HumanMessage(content="What is 81 divided by 9?"),
