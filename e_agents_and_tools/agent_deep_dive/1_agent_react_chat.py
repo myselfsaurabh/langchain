@@ -10,7 +10,7 @@ from langchain_openai import ChatOpenAI
 load_dotenv()
 
 
-# Define Tools
+# Define Tools for the Agent    
 def get_current_time(*args, **kwargs):
     """Returns the current time in H:MM AM/PM format."""
     import datetime
