@@ -107,10 +107,3 @@ Explore the technologies like documents, embeddings, and vector stores that enab
   - `2_tool_decorator.py`
   - `3_tool_base_tool.py`
 
-Contributing
-
-Feel free to contribute by submitting issues, feature requests, or pull requests to improve the repository. Let's collaborate and make AI automation more accessible!
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
