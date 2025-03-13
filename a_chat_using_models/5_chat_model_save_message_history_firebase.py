@@ -9,7 +9,7 @@ from langchain_openai import ChatOpenAI
 Steps to replicate this example:
 1. Create a Firebase account
 2. Create a new Firebase project
-    - Copy the project ID
+    - Copy the project ID  
 3. Create a Firestore database in the Firebase project
 4. Install the Google Cloud CLI on your computer
     - https://cloud.google.com/sdk/docs/install
@@ -23,9 +23,9 @@ Steps to replicate this example:
 load_dotenv()
 
 # Setup Firebase Firestore
-PROJECT_ID = "langchain-demo-abf48"
-SESSION_ID = "user_session_new"  # This could be a username or a unique ID
-COLLECTION_NAME = "chat_history"
+PROJECT_ID = "langchain-5e917"
+SESSION_ID = "Saurabh_Session_01"  # This could be a username or a unique ID
+COLLECTION_NAME = "chat_history_OPENAI"
 
 # Initialize Firestore Client
 print("Initializing Firestore Client...")
