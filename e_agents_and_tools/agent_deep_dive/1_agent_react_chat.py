@@ -44,7 +44,7 @@ tools = [
     ),
 ]
 
-# Load the correct JSON Chat Prompt from the hub
+# Load the correct JSON Chat Prompt from the hub.
 prompt = hub.pull("hwchase17/structured-chat-agent")
 
 # Initialize a ChatOpenAI model
