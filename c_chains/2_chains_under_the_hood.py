@@ -23,6 +23,7 @@ invoke_model = RunnableLambda(lambda x: model.invoke(x.to_messages()))
 parse_output = RunnableLambda(lambda x: x.content)
 
 # Create the RunnableSequence (equivalent to the LCEL chain)
+#format should be first task, middle tasks as list and last task
 chain = RunnableSequence(first=format_prompt, middle=[invoke_model], last=parse_output)
 
 # Run the chain
