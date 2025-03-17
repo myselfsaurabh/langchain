@@ -13,7 +13,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 persistent_directory = os.path.join(
     current_dir, "db", "chroma_db_with_metadata")
 
-# Define the embedding model
+# Define the embedding model.
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
 # Load the existing vector store with the embedding function
