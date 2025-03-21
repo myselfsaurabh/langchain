@@ -22,7 +22,7 @@ class SimpleSearchInput(BaseModel):
 
 
 class MultiplyNumbersArgs(BaseModel):
-    x: float = Field(description="First number to multiply")
+    x: float = Field(description="First number to multiply.")
     y: float = Field(description="Second number to multiply.")
 
 
