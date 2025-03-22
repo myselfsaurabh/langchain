@@ -18,7 +18,7 @@ load_dotenv()
 
 
 class SimpleSearchInput(BaseModel):
-    query: str = Field(description="should be a search query")
+    query: str = Field(description="should be a search query.")
 
 
 class MultiplyNumbersArgs(BaseModel):
