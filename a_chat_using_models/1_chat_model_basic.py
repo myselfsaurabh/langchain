@@ -7,7 +7,7 @@ from langchain_openai import ChatOpenAI
 # Load environment variables from .env
 load_dotenv()
 
-# Create a ChatOpenAI model.
+# Create a ChatOpenAI model
 # check model ranking https://lmarena.ai/
 # list of different chat models https://python.langchain.com/docs/integrations/chat/
 model = ChatOpenAI(model="gpt-4o")
