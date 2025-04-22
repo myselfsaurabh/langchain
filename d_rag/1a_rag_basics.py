@@ -29,7 +29,7 @@ if not os.path.exists(persistent_directory):
     docs = text_splitter.split_documents(documents)
 
     # Display information about the split documents
-    print("\n--- Document Chunks Information --- ")
+    print("\n--- Document Chunks Information ---")
     print(f"Number of document chunks : {len(docs)}")
     print(f"Sample chunk:\n{docs[0].page_content}\n")
 
