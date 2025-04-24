@@ -13,7 +13,7 @@ model = ChatOpenAI(model="gpt-4")
 prompt_template = ChatPromptTemplate.from_messages(
     [
         ("system", "You are a comedian who tells jokes about {topic}."),
-        ("human", "Tell me {joke_count} jokes."),
+        ("human", "Tell me {joke_count} jokes. "),
     ]
 )
 
