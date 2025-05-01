@@ -14,7 +14,7 @@ from langchain_core.messages import HumanMessage
 
 # PART 2: Prompt with Multiple Placeholders
 template_multiple = """You are a helpful assistant.
-Human: Tell me a {adjective} story about a {animal}.
+Human: Tell me a {adjective} story about a {animal} .
 Assistant:"""
 prompt_multiple = ChatPromptTemplate.from_template(template_multiple)
 prompt = prompt_multiple.invoke({"adjective": "funny", "animal": "panda"})
