@@ -9,7 +9,7 @@ load_dotenv()
 # Create a ChatOpenAI model
 model = ChatOpenAI(model="gpt-4o")
 
-# Define prompt templates (no need for separate Runnable chains)
+# Define prompt templates (no need for separate Runnable chains )
 prompt_template = ChatPromptTemplate.from_messages(
     [
         ("system", "You are a comedian who tells jokes about {topic}."),
