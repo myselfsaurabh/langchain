@@ -26,7 +26,7 @@ if os.path.exists(persistent_directory):
                 embedding_function=None)
 else:
     raise FileNotFoundError(
-        f"The directory {persistent_directory} does not exist. Please check the path."
+        f"The directory {persistent_directory} does not exist. Please check the path. "
     )
 
 # Define the embedding model
