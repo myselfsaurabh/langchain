@@ -21,7 +21,7 @@ persistent_directory = os.path.join(db_dir, "chroma_db_with_metadata")
 
 # Check if the Chroma vector store already exists
 if os.path.exists(persistent_directory):
-    print("Loading existing vector store...")
+    print("Loading existing vector store....")
     db = Chroma(persist_directory=persistent_directory,
                 embedding_function=None)
 else:
